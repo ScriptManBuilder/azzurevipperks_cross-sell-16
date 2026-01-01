@@ -26,7 +26,7 @@ const MerchantDisclosurePage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Merchant Information</LegalSectionTitle>
             <LegalParagraph>
-              This disclosure provides important information about {process.env.REACT_APP_COMPANY_NAME}, the provider of 
+              This disclosure provides important information about {process.env.REACT_APP_COMPANY_NAME} the provider of 
               premium VIP lifestyle membership services. This information is provided in compliance with consumer protection 
               laws and payment card industry regulations.
             </LegalParagraph>
@@ -284,8 +284,7 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT} 
-                or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
+                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT}                or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
               </LegalListItem>
               <LegalListItem>
                 <strong>Step 2 - Investigation:</strong> We will investigate your dispute and respond within 5-7 business days

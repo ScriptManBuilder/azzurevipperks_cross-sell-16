@@ -26,8 +26,7 @@ const EndUserTermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>1. Acceptance of Terms</LegalSectionTitle>
             <LegalParagraph>
-              These End-User Terms of Service ("End-User Terms") govern your use of services provided by 
-              {process.env.REACT_APP_COMPANY_NAME} when you interact with our premium VIP lifestyle program as an elite member 
+              These End-User Terms of Service ("End-User Terms") govern your use of services provided by               {process.env.REACT_APP_COMPANY_NAME} when you interact with our premium VIP lifestyle program as an elite member 
               or prospective member.
             </LegalParagraph>
             <LegalParagraph>
@@ -200,8 +199,7 @@ const EndUserTermsPage: React.FC = () => {
                 <strong>Chargebacks:</strong> Before initiating a chargeback, contact the merchant and us to resolve the issue
               </LegalListItem>
               <LegalListItem>
-                <strong>Disputed Charges:</strong> Report unauthorized or incorrect charges to {process.env.REACT_APP_EMAIL_SUPPORT} 
-                within 60 days
+                <strong>Disputed Charges:</strong> Report unauthorized or incorrect charges to {process.env.REACT_APP_EMAIL_SUPPORT}                 within 60 days
               </LegalListItem>
               <LegalListItem>
                 <strong>Investigation:</strong> We will investigate disputed charges and work with you and the merchant to resolve
