@@ -91,11 +91,61 @@ export const FooterLogo = styled.div`
   margin-bottom: 1.25rem;
   letter-spacing: -0.02em;
 
+  img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
   svg {
-    width: 28px;
-    height: 28px;
-    color: #0066cc;
-    filter: drop-shadow(0 2px 4px rgba(0, 102, 204, 0.3));
+    width: 24px;
+    height: 24px;
+    color: #10B981;
+    filter: drop-shadow(0 2px 4px rgba(16, 185, 129, 0.3));
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.15rem;
+    gap: 0.5rem;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    font-size: 1rem;
+    gap: 0.4rem;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.9rem;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
   }
 `;
 

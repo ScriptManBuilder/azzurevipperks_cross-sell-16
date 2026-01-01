@@ -60,15 +60,26 @@ export const Logo = styled.div`
     opacity: 0.8;
   }
 
+  img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+
   svg {
     width: 28px;
     height: 28px;
-    color: #0066cc;
+    color: #10B981;
   }
 
   @media (max-width: 768px) {
     font-size: 1.15rem;
     gap: 0.5rem;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
 
     svg {
       width: 24px;
@@ -80,6 +91,11 @@ export const Logo = styled.div`
     font-size: 1rem;
     gap: 0.4rem;
 
+    img {
+      width: 22px;
+      height: 22px;
+    }
+
     svg {
       width: 22px;
       height: 22px;
@@ -88,6 +104,11 @@ export const Logo = styled.div`
 
   @media (max-width: 320px) {
     font-size: 0.9rem;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
 
     svg {
       width: 20px;
