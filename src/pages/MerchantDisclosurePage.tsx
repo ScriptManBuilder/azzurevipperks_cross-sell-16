@@ -31,17 +31,20 @@ const MerchantDisclosurePage: React.FC = () => {
               laws and payment card industry regulations.
             </LegalParagraph>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
-              Legal Business Name:
+              Legal Business Name: {process.env.REACT_APP_COMPANY_NAME}
             </LegalParagraph>
-            <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
+            {/* <LegalParagraph>
+             
+            </LegalParagraph> */}
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Address:
             </LegalParagraph>
-            <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
+            <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <img 
+                src="/company_adress.png" 
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Contact Information:
             </LegalParagraph>
@@ -99,7 +102,7 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Primary Descriptor:</strong> "AZZURE" or "PRIVEXA*[Merchant Name]"
+                <strong>Primary Descriptor:</strong> "AZR" or "PRIVEXA*[Merchant Name]"
               </LegalListItem>
               <LegalListItem>
                 <strong>Alternative Descriptors:</strong> May include the merchant's business name followed by our company name
@@ -432,21 +435,12 @@ const MerchantDisclosurePage: React.FC = () => {
             <LegalParagraph>
               For any questions about this Merchant Disclosure or our payment processing services:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Attention: Customer Service Department
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Hours: Monday - Friday, 9:00 AM - 6:00 PM EST
             </LegalParagraph>

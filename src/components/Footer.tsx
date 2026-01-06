@@ -48,11 +48,11 @@ const Footer: React.FC = () => {
               <img src="/favicon.ico" alt="Logo" />
               {process.env.REACT_APP_BRAND_NAME}
             </FooterLogo>
-            <CompanyInfo>
+            {/* <CompanyInfo>
               <p>{companyName}</p>
               <p>{companyAddress}</p>
               <p>Established {process.env.REACT_APP_COMPANY_BIRTH || 'March 2023'}</p>
-            </CompanyInfo>
+            </CompanyInfo> */}
              <PaymentIcons>
               <PaymentIcon>
                 <img src="/visa.svg" alt="Visa" />
@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
         </FooterGrid>
 
         <FooterBottom>
-          <p>&copy; {new Date().getFullYear()} {companyName} All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()}  All rights reserved.</p>
           <p>Do you not recognize a charge on your bank statement? We can help to resolve your query quickly and efficiently.</p>
         </FooterBottom>
       </FooterContent>

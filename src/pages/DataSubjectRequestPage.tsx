@@ -52,15 +52,12 @@ const DataSubjectRequestPage: React.FC = () => {
             <LegalParagraph>
               To exercise any of these rights, please contact us at:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Address: {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
           </LegalSection>
 
           <LegalSection>
